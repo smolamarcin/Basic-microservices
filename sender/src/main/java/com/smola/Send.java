@@ -16,7 +16,7 @@ public class Send {
         Connection connection = connectionFactory.newConnection();
         Channel channel = connection.createChannel();
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
-
+        System.out.println("XDD");
         String message = "Hello World!";
         channel.basicPublish("",QUEUE_NAME,null,message.getBytes());
         System.out.println(" [x] Sent '" + message + "'");
