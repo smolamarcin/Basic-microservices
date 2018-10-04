@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 public class Send {
-    private final static String QUEUE_NAME = "hello";
+    private final static String QUEUE_NAME = "siema";
 
     public static void main(String[] args) throws IOException, TimeoutException {
         ConnectionFactory connectionFactory = new ConnectionFactory();
