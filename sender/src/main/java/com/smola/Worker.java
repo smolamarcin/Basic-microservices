@@ -4,7 +4,7 @@ import com.rabbitmq.client.*;
 
 import java.io.IOException;
 
-public class Worker {
+public class  Worker {
     private static final String TASK_QUEUE_NAME = "task_queue";
 
     public static void main(String[] argv) throws Exception {
