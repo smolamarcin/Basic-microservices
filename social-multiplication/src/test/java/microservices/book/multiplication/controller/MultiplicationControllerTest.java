@@ -1,8 +1,8 @@
-package com.smola.socialmultiplication.controller;
+package microservices.book.multiplication.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.smola.socialmultiplication.domain.Multiplication;
-import com.smola.socialmultiplication.service.MultiplicationService;
+import microservices.book.multiplication.domain.Multiplication;
+import microservices.book.multiplication.service.MultiplicationService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,7 +16,7 @@ import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.BDDMockito.given;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
@@ -30,24 +30,30 @@ public class MultiplicationControllerTest {
     @Autowired
     private MockMvc mvc;
 
+    // This object will be magically initialized by the initFields method below.
     private JacksonTester<Multiplication> json;
 
     @Before
-    public void setUp() {
+    public void setup() {
         JacksonTester.initFields(this, new ObjectMapper());
     }
 
     @Test
-    public void getRandomMultiplicationTest() throws Exception {
-        //given
-        given(multiplicationService.createRandomMultiplication()).willReturn(new Multiplication(70, 20));
+    public void getRandomMultiplicationTest() throws Exception{
+        // given
+        given(multiplicationService.createRandomMultiplication())
+                .willReturn(new Multiplication(70, 20));
 
-        //when
-        MockHttpServletResponse response = mvc.perform(get("/multiplications/random").accept(MediaType.APPLICATION_JSON))
+        // when
+        MockHttpServletResponse response = mvc.perform(
+                get("/multiplications/random")
+                        .accept(MediaType.APPLICATION_JSON))
                 .andReturn().getResponse();
 
-        //then
+        // then
         assertThat(response.getStatus()).isEqualTo(HttpStatus.OK.value());
-        assertThat(response.getContentAsString()).isEqualTo(json.write(new Multiplication(70, 20)).getJson());
+        assertThat(response.getContentAsString())
+                .isEqualTo(json.write(new Multiplication(70, 20)).getJson());
     }
+
 }
