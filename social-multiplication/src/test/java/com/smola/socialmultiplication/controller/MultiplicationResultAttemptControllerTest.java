@@ -26,13 +26,14 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(MultiplicationResultAttempt.class)
+@WebMvcTest(MultiplicationResultAttemptController.class)
 public class MultiplicationResultAttemptControllerTest {
     @MockBean
     private MultiplicationService multiplicationService;
 
     @Autowired
     private MockMvc mockMvc;
+
     private JacksonTester<MultiplicationResultAttempt> jsonResult;
     private JacksonTester<MultiplicationResultAttemptController.ResultResponse> jsonResponse;
 
@@ -59,11 +60,14 @@ public class MultiplicationResultAttemptControllerTest {
         MultiplicationResultAttempt attempt = new MultiplicationResultAttempt(user, multiplication, 3500);
 
         //when
-        MockHttpServletResponse response = mockMvc.perform(post("/results").contentType(MediaType.APPLICATION_JSON).content(jsonResult.write(attempt).getJson()))
+        MockHttpServletResponse response = mockMvc.perform(post("/results")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(jsonResult.write(attempt).getJson()))
                 .andReturn().getResponse();
 
         //then
         assertThat(response.getStatus()).isEqualTo(HttpStatus.OK.value());
-        assertThat(response.getContentAsString()).isEqualTo(jsonResponse.write(new MultiplicationResultAttemptController.ResultResponse(b)).getJson());
+        assertThat(response.getContentAsString())
+                .isEqualTo(jsonResponse.write(new MultiplicationResultAttemptController.ResultResponse(b)).getJson());
     }
 }
