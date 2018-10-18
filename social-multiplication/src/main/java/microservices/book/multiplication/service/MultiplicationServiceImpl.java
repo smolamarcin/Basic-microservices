@@ -52,7 +52,7 @@ class MultiplicationServiceImpl implements MultiplicationService {
 
         // Check if the attempt is correct
         boolean isCorrect = attempt.getResultAttempt() ==
-                        attempt.getMultiplication().getFactorA() *
+                attempt.getMultiplication().getFactorA() *
                         attempt.getMultiplication().getFactorB();
 
         MultiplicationResultAttempt checkedAttempt = new MultiplicationResultAttempt(
@@ -76,6 +76,11 @@ class MultiplicationServiceImpl implements MultiplicationService {
     @Override
     public List<MultiplicationResultAttempt> getStatsForUser(String userAlias) {
         return attemptRepository.findTop5ByUserAliasOrderByIdDesc(userAlias);
+    }
+
+    @Override
+    public Optional<MultiplicationResultAttempt> getResultById(Long resultId) {
+        return attemptRepository.findById(resultId);
     }
 
 }

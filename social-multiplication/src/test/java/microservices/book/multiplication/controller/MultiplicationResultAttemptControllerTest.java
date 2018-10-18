@@ -1,6 +1,7 @@
 package microservices.book.multiplication.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import javassist.NotFoundException;
 import microservices.book.multiplication.domain.Multiplication;
 import microservices.book.multiplication.domain.MultiplicationResultAttempt;
 import microservices.book.multiplication.domain.User;
@@ -20,6 +21,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.List;
+import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.BDDMockito.given;
@@ -108,4 +110,33 @@ public class MultiplicationResultAttemptControllerTest {
                 ).getJson());
     }
 
+    @Test
+    public void shouldReturnHttpOK_whenRetrieveExistingAttempt() throws Exception {
+        // given
+        User user = new User("john_doe");
+        Multiplication multiplication = new Multiplication(50, 70);
+        MultiplicationResultAttempt attempt = new MultiplicationResultAttempt(
+                user, multiplication, 3500, true);
+        given(multiplicationService.getResultById(1L)).willReturn(Optional.of(attempt));
+
+        // when
+        MockHttpServletResponse response = mvc.perform(get("/results/{resultId}","1"))
+                .andReturn().getResponse();
+
+        // then
+        assertThat(response.getStatus()).isEqualTo(HttpStatus.OK.value());
+        assertThat(response.getContentAsString()).isEqualTo(jsonResultAttempt.write(attempt).getJson());
+    }
+
+    @Test
+    public void shouldReturnHttpNotFound_whenRetrieveNonExistingAttempt() throws Exception {
+        //given
+        given(multiplicationService.getResultById(1L)).willReturn(null);
+
+        //when  - then
+        MockHttpServletResponse response = mvc.perform(get("/results/{resultId}","999"))
+                .andReturn().getResponse();
+
+        assertThat(response.getStatus()).isEqualTo(HttpStatus.NOT_FOUND.value());
+    }
 }

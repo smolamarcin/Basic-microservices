@@ -41,4 +41,9 @@ final class MultiplicationResultAttemptController {
         );
     }
 
+    @GetMapping("{resultId}")
+    ResponseEntity<MultiplicationResultAttempt> getResultById(@PathVariable("resultId") Long resultId) {
+        return multiplicationService.getResultById(resultId).map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
+    }
+
 }

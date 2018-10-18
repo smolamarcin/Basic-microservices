@@ -15,4 +15,5 @@ public interface MultiplicationResultAttemptRepository
      * @return the latest 5 attempts for a given user, identified by their alias.
      */
     List<MultiplicationResultAttempt> findTop5ByUserAliasOrderByIdDesc(String userAlias);
+
 }
