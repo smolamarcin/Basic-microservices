@@ -67,9 +67,9 @@ class MultiplicationServiceImpl implements MultiplicationService {
 
 
         // Communicates the result via Event
-        eventDispatcher.send(new MultiplicationSolvedEvent(attempt.getId(),
-                attempt.getUser().getId(),
-                attempt.isCorrect()));
+        eventDispatcher.send(new MultiplicationSolvedEvent(checkedAttempt.getId(),
+                checkedAttempt.getUser().getId(),
+                checkedAttempt.isCorrect()));
         return isCorrect;
     }
 
