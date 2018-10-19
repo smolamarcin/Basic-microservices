@@ -16,7 +16,7 @@ import javax.persistence.Id;
 @EqualsAndHashCode
 @Entity
 public class ScoreCard {
-    private static final int DEFAULT_SCORE = 10;
+    public static final int DEFAULT_SCORE = 10;
     @Id
     @GeneratedValue
     @Column(name = "CARD_ID")
