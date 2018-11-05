@@ -117,7 +117,7 @@ public class MultiplicationResultAttemptControllerTest {
         Multiplication multiplication = new Multiplication(50, 70);
         MultiplicationResultAttempt attempt = new MultiplicationResultAttempt(
                 user, multiplication, 3500, true);
-        given(multiplicationService.getResultById(1L)).willReturn(Optional.of(attempt));
+        given(multiplicationService.getResultById(1L)).willReturn(attempt);
 
         // when
         MockHttpServletResponse response = mvc.perform(get("/results/{resultId}","1"))
