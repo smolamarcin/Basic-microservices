@@ -8,9 +8,16 @@ services:
                 environment:
                         - RABBITMQ_DEFAULT_USER=user
                         - RABBITMQ_DEFAULT_PASS=password
+                networks:
+                        - backend
         gamification:
                 build:
                         context: gamification
                 image: gamification:latest
-                depends_on: 
+                depends_on:
                         - rabbitmq
+                networks:
+                        - backend
+networks:
+  backend:
+    driver: bridge

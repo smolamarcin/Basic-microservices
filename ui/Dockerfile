@@ -1,2 +1,4 @@
 FROM jetty:9
-RUN java -jar "$JETTY_HOME/start.jar"
+
+RUN mkdir /var/lib/jetty/webapps/ui
+COPY webapps/ui /var/lib/jetty/webapps/ui/

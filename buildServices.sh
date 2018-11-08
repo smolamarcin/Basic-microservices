@@ -1,18 +1,20 @@
 #!/bin/bash
 
-
+function buildPackage(){
+  mvn package -DskipTests
+}
 
 echo "building service-registry"
-cd ..
-cd service-registry/ && ./mvnw package
+cd "service-registry"
+buildPackage
 
 echo "Running gateway service"
 cd ..
-cd gateway/ && ./mvnw package
+cd gateway/ && buildPackage
 
 echo "Running other microservices"
 
 cd ..
-cd social-multiplication/ && ./mvnw package
+cd social-multiplication/ && buildPackage
 cd ..
-cd gamification/ && ./mvnw package
+cd gamification/ && buildPackage

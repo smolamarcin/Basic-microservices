@@ -1,4 +1,4 @@
 FROM openjdk:8
 VOLUME /tmp
-COPY target/gamification-0.0.1-SNAPSHOT.jar app.jar
+COPY target/social-multiplication-v4-0.4.0-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","app.jar"]
