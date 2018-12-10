@@ -38,8 +38,30 @@ services:
       context: gamification
     environment:
       eureka.client.serviceUrl.defaultZone: http://service-registry:8761/eureka/
+    ports:
+      - "8081:8081"
     networks:
       - backend
+  multiplication:
+    build:
+      context: social-multiplication
+    environment:
+      eureka.client.serviceUrl.defaultZone: http://service-registry:8761/eureka/
+    ports:
+      - "7979:7979"
+    networks:
+      - backend
+  ui:
+    build:
+      context: ui
+    environment:
+      eureka.client.serviceUrl.defaultZone: http://service-registry:8761/eureka/
+    ports:
+      - "80:8080"
+      - "443:8443"
+    networks:
+      - backend
+
 networks:
   backend:
     driver: bridge
