@@ -3,41 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7e0c854c-41ac-44eb-976e-0f0ea0ab3941" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabbitmq/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabbitmq/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabbitmq/receiver/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabbitmq/receiver/src/main/java/com/smola/Recv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabbitmq/sender/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabbitmq/sender/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabbitmq/sender/src/main/java/com/smola/NewTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabbitmq/sender/src/main/java/com/smola/Send.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabbitmq/sender/src/main/java/com/smola/Worker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildServices.sh" beforeDir="false" afterPath="$PROJECT_DIR$/buildServices.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/Counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/RabbitAmqpTutorialsRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/RabbitmqAmqpTutorialsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/tut1/Tut1Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/tut1/Tut1Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/tut1/Tut1Sender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/tut2/Tut2Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/tut2/Tut2Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/tut2/Tut2Sender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/tut3/Tut3Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/tut3/Tut3Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/tut3/Tut3Sender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/test/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/CounterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-amqp-tutorials/src/test/java/org/springframework/amqp/tutorials/rabbitmqamqptutorials/RabbitmqAmqpTutorialsApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/siema.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/webapps/ui/gamification-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/webapps/ui/gamification-client.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gateway/target/" />
     <ignored path="$PROJECT_DIR$/service-registry/target/" />
@@ -54,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            <state relative-caret-position="-177">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -74,6 +40,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/webapps/ui/multiplication-client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="27" column="83" lean-forward="true" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -105,45 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/webapps/ui/multiplication-client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/microservices/book/gateway/GatewayApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -166,8 +129,9 @@
         <option value="$PROJECT_DIR$/ui/webapps/ui/gamification-client.js" />
         <option value="$PROJECT_DIR$/ui/webapps/ui/multiplication-client.js" />
         <option value="$PROJECT_DIR$/social-multiplication/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/social-multiplication/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java" />
       </list>
     </option>
   </component>
@@ -220,33 +184,76 @@
             <path>
               <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="gamification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="gamification" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="gamification" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="gamification" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="social-multiplication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="social-multiplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="social-multiplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="social-multiplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="social-multiplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="social-multiplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="multiplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="social-multiplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="multiplication" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,11 +262,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544455216185" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544457610379" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gamification" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -288,8 +296,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-101" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,7 +312,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -357,13 +366,6 @@
     <entry file="file://$PROJECT_DIR$/ui/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buildServices.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -389,31 +391,10 @@
         <state relative-caret-position="-1061" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/webapps/ui/gamification-client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/webapps/ui/multiplication-client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/microservices/book/gateway/configuration/WebConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -427,31 +408,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gamification/src/main/java/microservices/book/gamification/controller/UserSatsController.java">
+    <entry file="file://$PROJECT_DIR$/ui/webapps/ui/gamification-client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gamification/src/main/java/microservices/book/gamification/controller/LeaderBoardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -462,10 +429,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/microservices/book/gateway/configuration/WebConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/webapps/ui/multiplication-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="83" lean-forward="true" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gamification/src/main/java/microservices/book/gamification/controller/LeaderBoardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gamification/src/main/java/microservices/book/gamification/controller/UserSatsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
         </state>
       </provider>
     </entry>
