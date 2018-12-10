@@ -1,24 +1,45 @@
 version: "3"
 services:
-        service-registry:
-                        build:
-                                context: service-registry
-                        image: service-registry:latest
-                        ports:
-                          - "8761:8761"
-                        networks:
-                                - backend
-        gateway:
-                        build:
-                                context: gateway
-                        image: gateway:latest
-                        depends_on:
-                                # - rabbitmq
-                                - service-registry
-                        ports:
-                          - "8000:8000"
-                        networks:
-                                - backend
+  service-registry:
+    build:
+      context: service-registry
+    image: service-registry:latest
+    environment:
+      eureka.client.serviceUrl.defaultZone: http://service-registry:8761/eureka/
+    ports:
+      - "8761:8761"
+    networks:
+      - backend
+  gateway:
+    build:
+      context: gateway
+    image: gateway:latest
+    environment:
+      eureka.client.serviceUrl.defaultZone: http://service-registry:8761/eureka/
+    depends_on:
+      - rabbitmq
+      - service-registry
+    ports:
+      - "8000:8000"
+    networks:
+      - backend
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    environment:
+      RABBITMQ_DEFAULT_USER: "user"
+      RABBITMQ_DEFAULT_PASS: "password"
+    networks:
+      - backend
+  gamification:
+    build:
+      context: gamification
+    environment:
+      eureka.client.serviceUrl.defaultZone: http://service-registry:8761/eureka/
+    networks:
+      - backend
 networks:
   backend:
     driver: bridge
