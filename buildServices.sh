@@ -12,9 +12,9 @@ echo "Running gateway service"
 cd ..
 cd gateway/ && buildPackage
 
-echo "Running other microservices"
+echo "Building other microservices"
 
 cd ..
-cd social-multiplication/ && buildPackage
+cd multiplication/ && buildPackage
 cd ..
 cd gamification/ && buildPackage

@@ -38,7 +38,7 @@ services:
       - backend
   multiplication:
     build:
-      context: social-multiplication
+      context: multiplication
     environment:
       eureka.client.serviceUrl.defaultZone: http://service-registry:8761/eureka/
     networks:
