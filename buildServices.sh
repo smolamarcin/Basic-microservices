@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function buildPackage(){
- ./mvnw package -DskipTests
+ ./mvnw package
 }
 
 echo "building service-registry"

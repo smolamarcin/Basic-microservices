@@ -46,8 +46,6 @@ services:
   ui:
     build:
       context: ui
-    environment:
-      eureka.client.serviceUrl.defaultZone: http://service-registry:8761/eureka/
     ports:
       - "80:8080"
       - "443:8443"
